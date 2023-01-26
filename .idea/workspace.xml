@@ -3,21 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="13bdb194-dcf6-472d-b15a-85faa1532390" name="Changes" comment="&#10;# Subject line (try to keep under 50 characters)&#10;&#10;&#10;# Multi-line description of commit,&#10;# feel free to be detailed.&#10;&#10;# [Ticket: X]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/DetectCycleII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/DetectCycleII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/IsSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/IsSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/IsomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/IsomorphicStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/LongestPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/MaxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/MaxProfit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/MaximumProductArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/MaximumProductArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/MaximumSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/MaximumSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/MergeTwoSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/MiddleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/MiddleNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/PivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/PivotIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/ProductOfArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/RunningSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/RunningSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tlecla/leetcode/problems/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tlecla/leetcode/problems/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +31,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/trist/Projects/LeetCode&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/trist/Projects/LeetCode",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tlecla.leetcode.problems" />
@@ -91,7 +77,7 @@
       <workItem from="1674513076129" duration="2837000" />
       <workItem from="1674585030613" duration="3282000" />
       <workItem from="1674692799441" duration="7028000" />
-      <workItem from="1674700082146" duration="4423000" />
+      <workItem from="1674700082146" duration="6115000" />
     </task>
     <servers />
   </component>
