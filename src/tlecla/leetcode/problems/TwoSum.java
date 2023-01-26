@@ -2,6 +2,11 @@ package tlecla.leetcode.problems;
 
 import java.util.HashMap;
 
+/**
+ * 1. Two Sum
+ * <p>
+ * <a href="https://leetcode.com/problems/two-sum/">LeetCode link</a>
+ */
 public class TwoSum {
   public int[] twoSum(int[] nums, int target) {
     HashMap<Integer, Integer> map = new HashMap<>();

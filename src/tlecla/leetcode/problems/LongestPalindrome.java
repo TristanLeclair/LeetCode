@@ -1,7 +1,10 @@
 package tlecla.leetcode.problems;
 
-import java.util.HashMap;
-
+/**
+ * 409. Longest Palindrome
+ * <p>
+ * <a href="https://leetcode.com/problems/longest-palindrome/">LeetCode link</a>
+ */
 public class LongestPalindrome {
   public int longestPalindrome(String s) {
     int[] counts = new int[128];

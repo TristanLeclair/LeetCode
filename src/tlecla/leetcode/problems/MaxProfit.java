@@ -1,7 +1,10 @@
 package tlecla.leetcode.problems;
 
-import javax.swing.text.StyleContext;
-
+/**
+ * 121. Best Time to Buy and Sell Stock
+ * <p>
+ * <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">LeetCode link</a>
+ */
 public class MaxProfit {
   public int maxProfit(int[] prices) {
     int minVal = prices[0];

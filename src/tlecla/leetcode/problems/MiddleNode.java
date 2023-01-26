@@ -1,5 +1,10 @@
 package tlecla.leetcode.problems;
 
+/**
+ * 876. Middle of the Linked List
+ * <p>
+ * <a href="https://leetcode.com/problems/middle-of-the-linked-list/">LeetCode link</a>
+ */
 public class MiddleNode {
   public ListNode middleNode(ListNode head) {
     if(head == null) return null;

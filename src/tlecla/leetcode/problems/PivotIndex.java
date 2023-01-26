@@ -1,5 +1,10 @@
 package tlecla.leetcode.problems;
 
+/**
+ * 724. Find Pivot Index
+ * <p>
+ * <a href="https://leetcode.com/problems/find-pivot-index/">LeetCode link</a>
+ */
 public class PivotIndex {
     public int pivotIndex(int[] nums) {
         int leftSum = 0;

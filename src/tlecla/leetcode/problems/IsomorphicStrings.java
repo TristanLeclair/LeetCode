@@ -4,6 +4,11 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 
+/**
+ * 205. Isomorphic Strings
+ * <p>
+ * <a href="https://leetcode.com/problems/isomorphic-strings/">LeetCode link</a>
+ */
 public class IsomorphicStrings {
     public boolean isIsomorphicMine(String s, String t) {
         if (s.length() != t.length()) {

@@ -1,7 +1,10 @@
 package tlecla.leetcode.problems;
 
-import java.util.List;
-
+/**
+ * 21. Merge Two Sorted Lists
+ * <p>
+ * <a href="https://leetcode.com/problems/merge-two-sorted-lists/">LeetCode link</a>
+ */
 public class MergeTwoSortedLists {
   public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
     if(list1 == null) return list2;

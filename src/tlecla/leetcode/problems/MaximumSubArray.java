@@ -1,5 +1,10 @@
 package tlecla.leetcode.problems;
 
+/**
+ * 53. Maximum Subarray
+ * <p>
+ * <a href="https://leetcode.com/problems/maximum-subarray/">LeetCode link</a>
+ */
 public class MaximumSubArray {
   public int maxSubArray(int[] nums) {
     int currSum = nums[0];

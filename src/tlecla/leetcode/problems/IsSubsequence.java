@@ -1,5 +1,10 @@
 package tlecla.leetcode.problems;
 
+/**
+ * 392. Is Subsequence
+ * <p>
+ * <a href="https://leetcode.com/problems/is-subsequence/">LeetCode link</a>
+ */
 public class IsSubsequence {
   public boolean isSubsequence(String s, String t) {
     if (s.length() > t.length()) {
