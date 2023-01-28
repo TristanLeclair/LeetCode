@@ -1,9 +1,7 @@
 package tlecla.leetcode.problems;
 
-import java.util.EmptyStackException;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * 589. N-Ary Tree Preorder Traversal
@@ -11,32 +9,29 @@ import java.util.Stack;
  * <a href="https://leetcode.com/problems/n-ary-tree-preorder-traversal/">LeetCode link</a>
  */
 public class NAryTreePreorderTraversal {
-    public List<Integer> preorder(Node root) {
-        Stack<Node> stack = new Stack<>();
-        stack.add(root);
-        List<Integer> values = new LinkedList<>();
-        Node current = stackPoll(stack);
-        while (current != null) {
-            values.add(current.val);
-            if (current.children == null) {
-                current = stackPoll(stack);
-                continue;
-            }
-            for (Node child : current.children) {
-                if (child != null) {
-                    stack.add(child);
-                }
-            }
-            current = stackPoll(stack);
-        }
-        return values;
-    }
+  public List<Integer> preorder(Node root) {
+    List<Integer> results = new LinkedList<>();
+    traversePre(root, results);
+    return results;
+  }
 
-    private Node stackPoll(Stack<Node> stack) {
-        try {
-            return stack.pop();
-        } catch (EmptyStackException e) {
-            return null;
-        }
+  private void traversePre(Node root, List<Integer> total) {
+    if (root != null) {
+      total.add(root.val);
+      root.children.forEach(child -> traversePre(child, total));
     }
+  }
+
+  public List<Integer> postOrder(Node root) {
+    List<Integer> results = new LinkedList<>();
+    traversePost(root, results);
+    return results;
+  }
+
+  private void traversePost(Node root, List<Integer> total) {
+    if (root != null) {
+      root.children.forEach(child -> traversePre(child, total));
+      total.add(root.val);
+    }
+  }
 }
