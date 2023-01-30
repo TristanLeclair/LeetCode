@@ -1,9 +1,10 @@
-import tlecla.leetcode.problems.BinarySearch;
-import tlecla.leetcode.problems.FirstBadVersion;
+import tlecla.leetcode.problems.TreeNode;
+import tlecla.leetcode.problems.ValidateBinaryTree;
 
 public class Main {
   public static void main(String[] args) {
-    FirstBadVersion first = new FirstBadVersion();
-    System.out.println(first.firstBadVersion(2126753390));
+    ValidateBinaryTree val = new ValidateBinaryTree();
+    TreeNode tree = new TreeNode(Integer.MAX_VALUE - 3, new TreeNode(Integer.MIN_VALUE), new TreeNode(Integer.MAX_VALUE - 1, new TreeNode(Integer.MAX_VALUE - 2), new TreeNode(Integer.MAX_VALUE)));
+    System.out.println(val.isValidBST(tree));
   }
 }
