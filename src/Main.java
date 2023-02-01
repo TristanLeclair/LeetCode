@@ -1,11 +1,10 @@
-import tlecla.leetcode.problems.FibonacciNumber;
-import tlecla.leetcode.problems.FloodFill;
-
-import java.util.Arrays;
+import tlecla.leetcode.problems.NumberOfIslands;
 
 public class Main {
   public static void main(String[] args) {
-    FibonacciNumber fib = new FibonacciNumber();
-    System.out.println(fib.fib(4));
+    NumberOfIslands num = new NumberOfIslands();
+    num.numIslands(new char[][]{
+            {'1', '1', '1', '1', '0'}, {'1', '1', '0', '1', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '0', '0', '0'}
+    });
   }
 }
