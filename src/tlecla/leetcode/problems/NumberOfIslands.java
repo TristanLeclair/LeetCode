@@ -1,5 +1,10 @@
 package tlecla.leetcode.problems;
 
+/**
+ * 200. Number of Islands
+ * <p>
+ * <a href="https://leetcode.com/problems/number-of-islands/">LeetCode link</a>
+ */
 public class NumberOfIslands {
   private int m;
   private int n;
