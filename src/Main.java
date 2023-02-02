@@ -1,8 +1,8 @@
-import tlecla.leetcode.problems.MinCostClimbingStairs;
+import tlecla.leetcode.problems.UniquePaths;
 
 public class Main {
   public static void main(String[] args) {
-    MinCostClimbingStairs cost = new MinCostClimbingStairs();
-    System.out.println(cost.minCostClimbingStairs(new int[]{1, 100}));
+    UniquePaths paths = new UniquePaths();
+    System.out.println(paths.uniquePaths(3, 7));
   }
 }
