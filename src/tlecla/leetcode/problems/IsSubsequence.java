@@ -6,12 +6,34 @@ package tlecla.leetcode.problems;
  * <a href="https://leetcode.com/problems/is-subsequence/">LeetCode link</a>
  */
 public class IsSubsequence {
-  public boolean isSubsequence(String s, String t) {
+  public static boolean isSubsequence(String s, String t) {
+    if (s.length() > t.length()) return false;
+    if (s.isEmpty()) return true;
+
+    char[] charArray = s.toCharArray();
+    int subLength = s.length();
+    int subIdx = 0;
+    for (char c : t.toCharArray()) {
+      if (charArray[subIdx] == c) {
+        subIdx++;
+      }
+      if (subIdx == subLength) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  public static void main(String[] args) {
+
+  }
+
+  public boolean isSubsequenceOld(String s, String t) {
     if (s.length() > t.length()) {
       return false;
     }
     if (s.isEmpty()) {
-        return true;
+      return true;
     }
     char[] toCheckArray = s.toCharArray();
     int toCheckIndex = 0;

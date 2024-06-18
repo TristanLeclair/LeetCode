@@ -11,8 +11,10 @@ public class DecodeString {
   public String decodeString(String s) {
     Stack<Character> stack = new Stack<>();
     stack.push(s.charAt(0));
-    while(!stack.isEmpty()) {
+    while (!stack.isEmpty()) {
       char curr = stack.pop();
     }
+    //TODO: finish
+    return "boo";
   }
 }
